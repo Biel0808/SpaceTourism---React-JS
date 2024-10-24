@@ -1,9 +1,10 @@
-
+import Header from "../../Components/Header";
+import "./Home.module.css"
 function Home(){
     return(
-        <>
-            <h1>ola</h1>
-        </>
+        <body>
+            <Header/>
+        </body>
     );
 }
 export default Home;
